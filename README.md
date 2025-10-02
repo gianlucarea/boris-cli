@@ -1,12 +1,12 @@
-# Boris-cli
+# quote-cli
 
-**Boris-cli** is a fun terminal application written in **Go** that prints ASCII art along with a random quote from the TV show *Boris* every time your terminal starts. Perfect for adding some humor and flair to your command-line experience!
+**quote-cli** is a fun terminal application written in **Go** that prints ASCII art along with a random quote every time your terminal starts. Perfect for adding some humour and flair to your command-line experience!
 
 ---
 
 ## Features
 
-* Shows a **ASCII art quote** from the cult Italian TV series *Boris*.
+* Shows a **ASCII art quote**.
 * Lightweight and easy to install.
 * Written entirely in **Go**.
 
@@ -15,10 +15,10 @@
 ### From source
 
 ```bash
-git clone https://github.com/yourusername/boris-cli.git
-cd boris-cli
-go build -o boris-cli
-./boris-cli
+git clone https://github.com/yourusername/quote-cli.git
+cd quote-cli
+go build -o quote-cli
+./quote-cli
 ```
 
 ---
@@ -28,17 +28,17 @@ go build -o boris-cli
 Simply run:
 
 ```bash
-boris-cli
+quote-cli
 ```
 
-It will display an ASCII art of Boris with a random quote like:
+It will display an ASCII art of Quote with a random quote like:
 
 ```
-   ____            _         _ 
-  / ___| ___ _ __ (_) ___   | |
- | |  _ / _ \ '_ \| |/ _ \  | |
- | |_| |  __/ | | | | (_) | |_|
-  \____|\___|_| |_|_|\___/  (_)
+ __   __                  ___              _         _   
+ \ \ / /__  _   _ _ __   / _ \  ___  _   _| |_ ___  | |  
+  \ V / _ \| | | | '__| | | | |/ _ \| | | | __/ _ \ | |  
+   | | (_) | |_| | |    | |_| | (_) | |_| | ||  __/ |_|  
+   |_|\___/ \__,_|_|     \__\_\\___/ \__,_|\__\___| (_)  
                            
 ```
 
@@ -49,9 +49,9 @@ It will display an ASCII art of Boris with a random quote like:
 Add the command to you lib
 
 ```
-cd boris-cli
-mv boris-cli /usr/local/bin
-boris-cli
+cd quote-cli
+mv quote-cli /usr/local/bin
+quote-cli
 ```
 
 Then add the command to your shell config file:
@@ -59,19 +59,19 @@ Then add the command to your shell config file:
 ### Bash (`~/.bashrc`)
 
 ```bash
-boris-cli
+quote-cli
 ```
 
 ### Zsh (`~/.zshrc`)
 
 ```zsh
-boris-cli
+quote-cli
 ```
 
 ### Fish (`~/.config/fish/config.fish`)
 
 ```fish
-boris-cli
+quote-cli
 ```
 
 ---
